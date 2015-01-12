@@ -34,6 +34,8 @@ serenity storage currently supports following storage providers
 
 File model should define a string property by the name 'storageLocation' which should equal one of the supported storage providers.
 
+NOTE: The name of the provider may or may not be case sensitive depending on the file system. But it is very strongly recommended to use the name as if they are case sensitive. Node.js internal module loading is case sensitive
+
 The providers is initialized based on the configuration object passed during initilization by the application.
 
 To use s3 storage provider following configuration should be defined

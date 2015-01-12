@@ -28,3 +28,8 @@ helper.checkConfiguration = function(config) {
 helper.getConfig = function() {
   return this.config;
 };
+
+/**
+ * Module export
+ */
+module.exports = helper;

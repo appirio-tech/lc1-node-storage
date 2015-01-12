@@ -30,6 +30,7 @@
   "files": [
     "Readme.md",
     "index.js",
+    "helper.js",
     "providers/"
   ],
   "scripts": {}

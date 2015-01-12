@@ -17,9 +17,9 @@ var helper = {};
  */
 helper.checkConfiguration = function(config) {
   // some very strict configuration checking
-  if(_.isUndefined(config) || _.isUndefined(config.aws)) {
+  if(_.isUndefined(config) || _.isUndefined(config.storage)) {
     throw new Error('Invalid configuration');
-  } else if(!_.isString(config.aws.accessKeyId) || !_.isString(config.aws.secretAccessKey) || !_.isString(config.aws.bucket) || !_.isString(config.aws.region)) {
+  } else if(!_.isString(config.storage.aws.accessKeyId) || !_.isString(config.storage.aws.secretAccessKey) || !_.isString(config.storage.aws.bucket) || !_.isString(config.storage.aws.region)) {
     throw new Error('Invalid aws configuration');
   }
   this.config = config;

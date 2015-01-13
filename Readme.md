@@ -49,6 +49,14 @@ aws: {
 }
  ```
  
+ How to install?
+
+ Install via npm and git
+
+ ```
+ npm install git+https://github.com/riteshsangwan/serenity-storage.git
+ ```
+
  How to use ?
  
  Include the serenity-storage in your file using ```require```

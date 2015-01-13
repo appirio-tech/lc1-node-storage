@@ -6,9 +6,9 @@
   "contributors": [],
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/spanhawk/serenity-storage.git"
+    "url": "https://github.com/riteshsangwan/serenity-storage.git"
   },
-  "homepage": "https://github.com/riteshsangwan",
+  "homepage": "https://github.com/riteshsangwan/serenity-storage.git",
   "keywords": [
     "serenity"
   ],
@@ -20,9 +20,6 @@
     "lodash": "^2.4.1"
   },
   "devDependencies": {
-    "grunt-mocha-test": "^0.10.2",
-    "mocha": "1.21.4",
-    "should": "^4.4.4"
   },
   "engines": {
     "node": ">= 0.10.0"

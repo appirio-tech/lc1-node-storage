@@ -54,14 +54,14 @@ aws: {
  Install via npm and git
 
  ```
- npm install git+https://github.com/riteshsangwan/serenity-storage.git
+ npm install git+https://github.com/appirio-tech/lc1-node-storage.git
  ```
 
  How to use ?
  
  Include the serenity-storage in your file using ```require```
  ```
- var storageLib = require('serenity-storage')(config);
+ var storageLib = require('lc1-node-storage')(config);
  // to get download uri
  storageLib.getDownloadUrl(file, function(error, result) {
     if(error) {

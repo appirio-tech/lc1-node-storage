@@ -3,18 +3,18 @@ serenity storage
 
 Common npm module for serenity applications.
 
-This module provides file storage funcitonality.
+This module provides file storage functionality.
 
 It exports two methods
 
 - getDownloadUrl
 
   Returns a URI to upload the file to
-  
+
 - getUploadUrl
-  
+
   Returns a URI to file to download
-  
+
 
 Each of the methods takes two arguments, a) file model and b) callback function to call after processing. The callback function should have following two arguments
 
@@ -36,7 +36,7 @@ File model should define a string property by the name 'storageLocation' which s
 
 NOTE: The name of the provider may or may not be case sensitive depending on the file system. But it is very strongly recommended to use the name as if they are case sensitive. Node.js internal module loading is case sensitive
 
-The providers is initialized based on the configuration object passed during initilization by the application.
+The providers is initialized based on the configuration object passed during initialization by the application.
 
 To use s3 storage provider following configuration should be defined
 
@@ -48,20 +48,20 @@ aws: {
    region:            <REQUIRED> <STRING> 'aws s3 bucket region'
 }
  ```
- 
+
  How to install?
 
  Install via npm and git
 
  ```
- npm install git+https://github.com/appirio-tech/lc1-node-storage.git
+ npm install serenity-storage
  ```
 
  How to use ?
- 
+
  Include the serenity-storage in your file using ```require```
  ```
- var storageLib = require('lc1-node-storage')(config);
+ var storageLib = require('serenity-storage')(config);
  // to get download uri
  storageLib.getDownloadUrl(file, function(error, result) {
     if(error) {

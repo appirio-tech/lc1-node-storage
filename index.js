@@ -4,7 +4,7 @@
  * This module handles file upload and download functionality for serenity lc1-challenge-service
  *
  * @author      spanhawk
- * @version     0.0.1
+ * @version     1.0.0
  *
  * * The module exports two methods
  * 1. getDownloadUrl
